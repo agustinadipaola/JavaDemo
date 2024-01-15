@@ -36,7 +36,7 @@ public class Exercise {
 //		for (int i = 10; i<= 99; i++) {
 //			System.out.println("I:" + i + " SUM: " + sumDigits(i));
 //		}
-	}
+//	}
 	
 //	public static int sumDigits (int num) {
 //		int sum = 0;
