@@ -51,6 +51,7 @@ public class AppExercise {
 
 }
 
+
 //1. Create a Person class
 //2. Give it at least 3 fields
 //3. In a SEPERATE file instantiate (create) a couple person object
