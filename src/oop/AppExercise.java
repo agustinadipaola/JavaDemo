@@ -57,4 +57,3 @@ public class AppExercise {
 //4. Give them some data
 //5. Give your person a method that introduces themselves
 //6. Call that method in main
-//asdasdasd
