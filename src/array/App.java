@@ -1,9 +1,8 @@
 package array;
 
-public class App {
+public class app {
 
 	public static void main(String[] args) {
-		int num = 0;
 		// creates a blank array 10 long
 		int[] nums = new int[10];
 
