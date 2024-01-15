@@ -52,26 +52,28 @@ public class Exercise {
 public static void main (String [] args) {
 	
 	for (int i = 1; i < 100 ; i++) {
-		System.out.println ("I: " + i + "TEXT: " + numToString(i)); }
+		System.out.println ("NUMBER: " + i + " TEXT: " + numToString(i)); }
 }
 	
 
 	public static String numToString (int num) {
-		
 	String out = "";
 	String [] tensArray = {"", "ten", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
-
 	String[] unitsArray = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+	String[] teensArray = {"", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};	
 	
 	int tens = num / 10;
 	int units = num % 10;
 	
-	out += tensArray [tens];
 	
+	if (num > 10 && num <20 ) {
+		out += teensArray[units];
+	} else {
+	out += tensArray[tens];
 	if (tens > 1 && units > 0) out += "-";
 	
 	out += unitsArray [units];
-	
+	}
 	return out;
 	
 }
