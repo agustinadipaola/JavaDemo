@@ -6,11 +6,11 @@ public class Tricycle extends Vehicles {
 
 	private boolean bell;
 
-	public Tricycle(String brand, int year, String colour) {
+	public Tricycle(String brand, int year, String colour, boolean bell) {
 		setBrand(brand);
 		setYear(year);
 		setColour(colour);
-
+		this.bell = bell;
 	}
 
 	public boolean isBell() {

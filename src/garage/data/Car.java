@@ -4,7 +4,7 @@ public class Car extends Vehicles {
 
 	private boolean auxwheel;
 
-	public Car(String brand, int year, String colour) {
+	public Car(String brand, int year, String colour, boolean auxwheel) {
 		setBrand(brand);
 		setYear(year);
 		setColour(colour);
