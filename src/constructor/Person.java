@@ -1,4 +1,4 @@
-package encapsulation;
+package constructor;
 
 public class Person {
 
@@ -6,6 +6,26 @@ public class Person {
 	private String lastname;
 	private int age;
 	private String motherlenguage;
+
+	public Person(String name, String lastname, int age, String motherlenguage) {
+//		default constructor
+//		using the setters keeps validation we wrote earlier
+		setName(name);
+		setLastname(lastname);
+		setAge(age);
+		this.motherlenguage = motherlenguage;
+	}
+
+	public Person(String name, String lastname)
+
+	{
+		this.name = name;
+		this.lastname = lastname;
+	}
+
+	public Person() {
+
+	}
 
 	public void print() {
 		System.out.println("My full name is: " + name + lastname);
