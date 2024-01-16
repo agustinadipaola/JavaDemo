@@ -8,9 +8,10 @@ public class Car extends Vehicles {
 		setBrand(brand);
 		setYear(year);
 		setColour(colour);
+		this.auxwheel = auxwheel;
 	}
 
-	public auxwheel isAuxwheel() {
+	public boolean isAuxwheel() {
 		return auxwheel;
 	}
 

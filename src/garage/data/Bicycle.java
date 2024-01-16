@@ -8,6 +8,7 @@ public class Bicycle extends Vehicles {
 		setBrand(brand);
 		setYear(year);
 		setColour(colour);
+
 	}
 
 	public int isWheelsize() {
