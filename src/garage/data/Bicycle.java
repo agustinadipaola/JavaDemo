@@ -2,9 +2,20 @@ package garage.data;
 
 public class Bicycle extends Vehicles {
 
+	private int wheelsize;
+
 	public Bicycle(String brand, int year, String colour) {
 		setBrand(brand);
 		setYear(year);
 		setColour(colour);
 	}
+
+	public int isWheelsize() {
+		return wheelsize;
+	}
+
+	public void setWheelsize(int wheelsize) {
+		this.wheelsize = wheelsize;
+	}
+
 }
