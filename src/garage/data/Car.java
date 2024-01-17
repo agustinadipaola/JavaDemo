@@ -1,15 +1,24 @@
 package garage.data;
 
-public class Car extends Vehicles {
+public class Car extends Vehicle {
 
-	private boolean auxwheel;
+//	default constructor
+	public Car() {
+		super();
+	}
 
 	public Car(String brand, int year, String colour, boolean auxwheel) {
-		setBrand(brand);
-		setYear(year);
-		setColour(colour);
+		super(brand, year, colour);
 		this.auxwheel = auxwheel;
 	}
+
+	@Override
+	public void print() {
+		super.print();
+		System.out.println("Aux Wheel?: " + this.auxwheel);
+	}
+
+	private boolean auxwheel;
 
 	public boolean isAuxwheel() {
 		return auxwheel;
@@ -18,4 +27,5 @@ public class Car extends Vehicles {
 	public void setAuxwheel(boolean auxwheel) {
 		this.auxwheel = auxwheel;
 	}
+
 }

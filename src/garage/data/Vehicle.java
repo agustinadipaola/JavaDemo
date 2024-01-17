@@ -1,15 +1,17 @@
 package garage.data;
 
-public class Vehicles {
+public class Vehicle {
 	private String brand;
 	private int year;
 	private String colour;
 
-	public Vehicles() {
+//	default constructor
+	public Vehicle() {
+		super();
 
 	}
 
-	public Vehicles(String brand, int year, String colour) {
+	public Vehicle(String brand, int year, String colour) {
 		super();
 		this.brand = brand;
 		this.year = year;
