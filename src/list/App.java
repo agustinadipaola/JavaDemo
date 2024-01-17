@@ -12,7 +12,7 @@ public class App {
 
 		myGarage.park(new Car("Audi", 2023, "Black", false));
 		myGarage.park(new Bicycle("Trek", 2019, "Purple", 27));
-		myGarage.park(new Tricycle());
+		myGarage.park(new Tricycle("Tricycle brand", 2023, "Red", true));
 
 		myGarage.collect(new Car("Audi", 2023, "Black", false));
 
